@@ -1,4 +1,4 @@
-# bsdcpio
+# bsdcpio [![Build Status](https://travis-ci.org/josephholsten/bsdcpio_cookbook.png)](https://travis-ci.org/josephholsten/bsdcpio_cookbook)
 
 ## Description
 
