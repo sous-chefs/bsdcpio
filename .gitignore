@@ -1,0 +1,8 @@
+Gemfile.lock
+test/gemfiles/*.lock
+Berksfile.lock
+.kitchen/
+.kitchen.local.yml
+test/docker/
+coverage/
+pkg/
