@@ -1,15 +1,18 @@
----
-driver_plugin: vagrant
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+  deprecations_as_errors: true
 
 platforms:
-- name: ubuntu-12.04
-  driver_config:
-    box: opscode-ubuntu-12.04
-    box_url: https://opscode-vm.s3.amazonaws.com/vagrant/boxes/opscode-ubuntu-12.04.box
-- name: ubuntu-10.04
-  driver_config:
-    box: opscode-ubuntu-10.04
-    box_url: https://opscode-vm.s3.amazonaws.com/vagrant/boxes/opscode-ubuntu-10.04.box
+  - name: ubuntu-14.04
+    driver:
+      box: bento/ubuntu-14.04
+
+  - name: ubuntu-16.04
+    driver:
+      box: bento/ubuntu-16.04
 
 suites:
 - name: default
