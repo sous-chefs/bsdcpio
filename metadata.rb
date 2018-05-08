@@ -6,7 +6,7 @@ maintainer_email 'help@sous-chefs.org'
 chef_version     '>= 12.1'
 license          'Apache-2.0'
 description      'Installs bsdcpio'
-version          '1.0.0'
+version          '1.0.1'
 
 recipe 'bsdcpio::default', 'Installs bsdcpio package'
 
