@@ -1,6 +1,7 @@
 # bsdcpio
 
-[![Build Status](https://travis-ci.org/sous-chefs/bsdcpio.svg)](https://travis-ci.org/sous-chefs/bsdcpio) [![Cookbook Version](https://img.shields.io/cookbook/v/bsdcpio.svg)](https://supermarket.chef.io/cookbooks/bsdcpio)
+[![Cookbook Version](https://img.shields.io/cookbook/v/bsdcpio.svg)](https://supermarket.chef.io/cookbooks/bsdcpio)
+[![Build Status](https://img.shields.io/circleci/project/github/sous-chefs/bsdcpio/master.svg)](https://circleci.com/gh/sous-chefs/bsdcpio)
 
 ## Description
 
