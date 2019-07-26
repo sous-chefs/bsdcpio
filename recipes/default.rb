@@ -3,7 +3,7 @@
 # Cookbook:: bsdcpio
 # Resource:: default
 #
-# Copyright 2013, Joseph Anthony Pasquale Holsten
+# Copyright:: 2013, Joseph Anthony Pasquale Holsten
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
