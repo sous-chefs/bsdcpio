@@ -1,7 +1,11 @@
-## v1.0.1:
+# bsdcpio Cookbook CHANGELOG
 
-- Use a SPDX compliant license string
+This file is used to list changes made in each version of the bsdcpio cookbook.
 
-## v1.0.0:
+## v1.0.1
+
+* Use a SPDX compliant license string
+
+## v1.0.0
 
 * Initial release
