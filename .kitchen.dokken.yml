@@ -1,3 +1,4 @@
+---
 driver:
   name: dokken
   privileged: true # because Docker and SystemD/Upstart
@@ -14,7 +15,7 @@ verifier:
   name: inspec
 
 platforms:
-- name: debian-8
+  - name: debian-8
   driver:
     image: debian:8
     pid_one_command: /bin/systemd
