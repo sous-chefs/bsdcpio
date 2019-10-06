@@ -19,9 +19,9 @@ platforms:
   driver:
       image: debian:8
       pid_one_command: /bin/systemd
-      intermediate_instructions:
-        - RUN /usr/bin/apt-get update
-        - RUN /usr/bin/apt-get install apt-transport-https lsb-release procps net-tools -y
+      intermediate_instructions: >
+        RUN /usr/bin/apt-get update &&  RUN /usr/bin/apt-get 
+        install apt-transport-https lsb-release procps net-tools -y
 
 - name: centos-6
   driver:
@@ -50,29 +50,30 @@ platforms:
   driver:
     image: ubuntu-upstart:14.04
     pid_one_command: /sbin/init
-    intermediate_instructions:
-      - RUN /usr/bin/apt-get update
-      - RUN /usr/bin/apt-get install apt-transport-https lsb-release procps net-tools -y
+    intermediate_instructions: >
+      RUN /usr/bin/apt-get update && RUN /usr/bin/apt-get 
+      install apt-transport-https lsb-release procps net-tools -y
 
 - name: ubuntu-16.04
   driver:
     image: ubuntu:16.04
     pid_one_command: /bin/systemd
-    intermediate_instructions:
-      - RUN /usr/bin/apt-get update
-      - RUN /usr/bin/apt-get install apt-transport-https lsb-release procps net-tools -y
+    intermediate_instructions>
+      RUN /usr/bin/apt-get update && RUN /usr/bin/apt-get 
+      install apt-transport-https lsb-release procps net-tools -y
 
 - name: opensuse-leap
   driver:
     image: opensuse:leap
     pid_one_command: /bin/systemd
-    intermediate_instructions:
-      - RUN zypper --non-interactive install aaa_base perl-Getopt-Long-Descriptive which hostname
+    intermediate_instructions: >
+      RUN zypper --non-interactive install 
+      aaa_base perl-Getopt-Long-Descriptive which hostname
 
 - name: amazon
   driver:
     image: amazonlinux:latest
     pid_one_command: /sbin/init
-    intermediate_instructions:
-      - RUN yum update -y
-      - RUN yum -y install which initscripts net-tools wget procps util-linux
+    intermediate_instructions: >
+      RUN yum update -y &&  RUN yum -y 
+      install which initscripts net-tools wget procps util-linux
