@@ -15,7 +15,7 @@ verifier:
   name: inspec
 
 platforms:
-- name: debian-8
+  - name: debian-8
   driver:
     image: debian:8
     pid_one_command: /bin/systemd
@@ -58,7 +58,7 @@ platforms:
   driver:
     image: ubuntu:16.04
     pid_one_command: /bin/systemd
-    intermediate_instructions>
+    intermediate_instructions: >
       RUN /usr/bin/apt-get update && RUN /usr/bin/apt-get
       install apt-transport-https lsb-release procps net-tools -y
 
@@ -67,7 +67,7 @@ platforms:
     image: opensuse:leap
     pid_one_command: /bin/systemd
     intermediate_instructions: >
-      RUN zypper --non-interactive install 
+      RUN zypper --non-interactive install
       aaa_base perl-Getopt-Long-Descriptive which hostname
 
 - name: amazon
