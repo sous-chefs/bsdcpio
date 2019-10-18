@@ -19,7 +19,7 @@ _Store
 *.tmp
 *.bk
 *.bkup
-
+ 
 # ruby/bundler files
 .ruby-version
 .ruby-gemset
