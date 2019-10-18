@@ -19,5 +19,6 @@ workflows:
           name: lint-markdown
       - kitchen/danger:
           name: danger
+          context: Danger
       - kitchen/delivery:
           name: delivery
