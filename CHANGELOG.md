@@ -4,7 +4,7 @@ This file is used to list changes made in each version of the bsdcpio cookbook.
 
 ## UNRELEASED
 
-- Removed the unnecessary recipe metadata in metdata.rb
+- Removed the unnecessary recipe metadata in metadata.rb
 
 ## v1.0.1
 
