@@ -8,6 +8,4 @@ license          'Apache-2.0'
 description      'Installs bsdcpio'
 version          '1.0.1'
 
-recipe 'bsdcpio::default', 'Installs bsdcpio package'
-
 supports 'ubuntu'
