@@ -4,8 +4,7 @@ This file is used to list changes made in each version of the bsdcpio cookbook.
 
 ## Unreleased
 
-Standardise files with files in sous-chefs/repo-management
-
+- Standardise files with files in sous-chefs/repo-management
 
 ## 1.0.3 (2020-05-05)
 
