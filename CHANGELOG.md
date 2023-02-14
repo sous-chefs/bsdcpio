@@ -2,6 +2,8 @@
 
 This file is used to list changes made in each version of the bsdcpio cookbook.
 
+## Unreleased
+
 ## 1.0.6 - *2023-02-14*
 
 - Remove delivery folder
