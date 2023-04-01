@@ -6,6 +6,6 @@ maintainer_email 'help@sous-chefs.org'
 chef_version     '>= 12.1'
 license          'Apache-2.0'
 description      'Installs bsdcpio'
-version          '1.0.8'
+version          '1.0.9'
 
 supports 'ubuntu'
