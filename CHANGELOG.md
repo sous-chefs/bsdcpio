@@ -2,6 +2,8 @@
 
 This file is used to list changes made in each version of the bsdcpio cookbook.
 
+## Unreleased
+
 ## 1.0.12 - *2023-09-04*
 
 ## 1.0.11 - *2023-05-17*
