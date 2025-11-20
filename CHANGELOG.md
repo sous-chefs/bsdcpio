@@ -2,6 +2,18 @@
 
 This file is used to list changes made in each version of the bsdcpio cookbook.
 
+## [1.2.0](https://github.com/sous-chefs/bsdcpio/compare/bsdcpio-v1.1.0...bsdcpio-v1.2.0) (2025-11-20)
+
+
+### Features
+
+* **ci:** migrate to reusable workflows v4.1.0 ([#78](https://github.com/sous-chefs/bsdcpio/issues/78)) ([df095f9](https://github.com/sous-chefs/bsdcpio/commit/df095f9baad1671184de7c7fd4baa0b885f7b2b2))
+
+
+### Bug Fixes
+
+* **ci:** Update workflows to use release pipeline ([#79](https://github.com/sous-chefs/bsdcpio/issues/79)) ([0879418](https://github.com/sous-chefs/bsdcpio/commit/08794185c26a816ed2f23a1504468d8088612899))
+
 ## [1.1.0](https://github.com/sous-chefs/bsdcpio/compare/bsdcpio-v1.0.18...bsdcpio-v1.1.0) (2025-10-15)
 
 
